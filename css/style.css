@@ -1,0 +1,87 @@
+@import "reset.css";
+
+@font-face {
+  font-family: "KimjungchulGothic-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "KimjungchulGothic-Bold";
+}
+
+.title {
+  font-size: 30px;
+}
+
+.navbar--title {
+  font-family: "KimjungchulGothic-Bold";
+  font-size: 30px;
+}
+
+.navbar,
+.mottobox,
+.introductionbox,
+.skillbox,
+.projectbox,
+.footer {
+  padding: 10px 150px;
+}
+
+.navbar,
+.mottobox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+  background-color: black;
+}
+
+.mottobox {
+  justify-content: center;
+}
+
+.navbar--title,
+.mottobox__title {
+  color: white;
+}
+
+.mottobox__title {
+  font-size: 30px;
+}
+
+.introductionbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.introductionbox img {
+  width: 200px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.skillbox__contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.skillbox--img > img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.skillbox--text {
+  text-align: center;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
